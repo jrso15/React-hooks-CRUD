@@ -1,0 +1,102 @@
+main {
+	width: 90%;
+	text-align: center;
+	margin: 20px auto;
+	.title {
+		font-size: 30px;
+		margin: 40px 0 30px;
+	}
+	.sub-heading {
+		display: flex;
+		.order-title {
+			width: 30%;
+			border: 1px solid gray;
+			background-color: gray;
+			color: #fff;
+		}
+	}
+	.orders-container {
+		margin: 0 auto;
+		display: flex;
+ 		.order-list {
+ 			width: 30%;
+			border: 1px solid gray;
+		}
+	}
+	.form-list {
+		width: 90%;
+		margin: 30px auto;
+		label {
+			width: 100%;
+			display: block;
+			text-align: left;
+			input {
+				width: 100%;
+			}
+		}
+	}
+}
+
+.container {
+	text-align: center;
+	.order-details {
+		display: block;
+		.field {
+			width: 30%;
+			display: block;
+			margin: 0 auto 20px;
+		}
+		.order-details-list {
+			margin: 20px 0 50px;
+		}
+	}
+}
+
+.btn-order {
+	border: 0;
+	padding: 10px 20px;
+	border-radius: 10px;
+}
+
+.btn-update {
+	border: 0;
+	margin: 0 5px;
+	background-color: #cccccc;
+	color: #595959;
+	padding: 10px 15px;
+	border-radius: 10px;
+}
+
+table {
+	width: 100%;
+	margin: 20px 0;
+	th, td {
+	  padding: 10px 0;
+	}
+	th {
+		background-color: gray;
+		color: #fff;
+	}
+	td {
+		border: 1px solid black;
+	}
+	.btn {
+		margin: 0 5px;
+		width: 80px;
+		background-color: #cccccc;
+		color: #595959;
+	}
+}
+
+@media (min-width: 800px) {
+	main {
+		.form-list {
+			width: 30%;
+		}
+	}
+}
+
+
+
+
+
